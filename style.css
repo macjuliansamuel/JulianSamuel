@@ -1,0 +1,85 @@
+@font-face { font-family: Caviar Dreams; src: url('CaviarDreams.ttf'); } 
+@font-face { font-family: Caviar Dreams; font-weight: bold; src: url('Caviar_Dreams_Bold.ttf');}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-color:#fff234;
+    padding-top: 25px !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    
+}
+.navbar-nav li a{
+    color: #fff !important;
+    float: right;
+    text-align: left;
+  
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*--------------------bannner------------------------*/
+#banner
+{
+    background-color: #fff234;
+    padding-top:10%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
+
+.app-text{
+    font-family: Caviar Dreams;
+}
+.app-text h3{
+    font-size:60px;
+
+}
+.app-text h1{
+    font-size:120px;
+    font-weight: bold;
+}
+.app-subtext{
+    font-family: Caviar Dreams;
+    padding-top: 25%;
+}
+.app-subtext h3{
+    font-size: 35px;
+    
+    position: relative;
+    font-weight: bold;
+}
+}
+.app-subtext h5{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+.app-subtext p{
+    font-size: 20px;
+    
+    position: relative;
+    
+}
+.app-subtext a{
+    font-size: 20px;
+    color: #D65A31;
+    font-weight: bold;
+}
