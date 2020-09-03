@@ -83,3 +83,9 @@
     color: #D65A31;
     font-weight: bold;
 }
+
+.about-me-text{
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+}
