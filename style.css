@@ -60,11 +60,10 @@
 }
 .app-subtext h3{
     font-size: 35px;
-    
     position: relative;
     font-weight: bold;
 }
-}
+
 .app-subtext h5{
     font-size: 25px;
     font-weight: bold;
@@ -88,4 +87,37 @@
     font-size: 20px;
     text-align: justify;
     position: relative;
+}
+.footer{
+    background-color: #343537;
+    padding-left: 10% ;
+    
+}
+.footer h2{
+    padding-top:20px ;
+    color: #D65A31;
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+.footer p{
+    color: #fff;
+}
+.footer a{
+    color: #D65A31;
+    font-weight: bold;
+    
+}
+.fa-arrow-right{
+    color:#D65A31 ;
+}
+.r-text{
+    color:#707070 !important;
+}
+.footer{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
 }
