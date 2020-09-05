@@ -34,6 +34,18 @@
 .navbar-toggler{
     outline: none !important;
 }
+.nav-link::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
 /*--------------------bannner------------------------*/
 #banner
 {
@@ -83,11 +95,7 @@
     font-weight: bold;
 }
 
-.about-me-text{
-    font-size: 20px;
-    text-align: justify;
-    position: relative;
-}
+/*----------------------------Footer CSS -----------------------------------------*/
 .footer{
     background-color: #343537;
     padding-left: 10% ;
@@ -119,6 +127,9 @@
     padding-top: 15px;
     padding-bottom: 15px;   
 }
+
+/*Work Section */
+
 #work{
     background-color: #fff234;
 }
@@ -130,11 +141,11 @@
     background-color: turquoises;
 }
 .pd-l{
-    padding-left: 15%;
+    text-align:center;
     padding-top:150px;
     margin-bottom:100px;
 }
-img{
+.projects img{
     width: 500px;
     height:350px;
     border-radius: 15px;
@@ -145,7 +156,7 @@ img{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-img:hover, img:focus, img:active{
+.projects img:hover,.project img:focus,.project img:active{
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -153,4 +164,17 @@ img:hover, img:focus, img:active{
 .title-text{
     
     padding-top: 50px;
+}
+
+/*----------------------------ABOUT PAGE CSS-------------------------- */
+.about-me-text{
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 100px;
+}
+.my-img{
+    height: 500px;
+    margin:0 0 100px 0;
+
 }
