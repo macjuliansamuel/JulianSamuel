@@ -3,16 +3,18 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 }
 
 #nav-bar{
+    background-color:#fff234;
     position: sticky;
     top: 0;
     z-index: 10;
 }
 .navbar
 {
-    background-color:#fff234;
+    
     padding-top: 25px !important;
     padding-right: 10% !important;
     padding-left: 10% !important;
@@ -190,4 +192,17 @@
 }
 .fa-angle-down{
     text-align: center;
+}
+.book{
+    padding-top: 10px;
+    
+    height: 200px;
+}
+#books{
+    background-color: F3EFF5;
+    padding-left: 10%;
+    padding-right: 10%
+}
+.col-md-2 h5{
+    padding-top: 10px;
 }
