@@ -153,7 +153,7 @@
 }
 .pd-l{
     text-align:center;
-    padding-bottom:100px;
+    padding-bottom:50px;
 }
 
 .projects img{
@@ -210,3 +210,18 @@
 .col-md-2 h5{
     padding-top: 10px;
 }
+/*---------------------- Contets----------------------------------- */
+#content{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+p{
+    text-align: justify;
+}
+.header img{
+    width: 600px;
+}
+.row img{
+    width:300px;
+}
+/*------------------------------------------------------------------*/
