@@ -5,6 +5,9 @@
     padding: 0%;
     
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 
 #nav-bar{
     background-color:#fff234;
@@ -223,5 +226,10 @@ p{
 }
 .row img{
     width:300px;
+}
+.header h1,h2,h4{
+    padding-top: 30px;
+    font-family: Caviar Dreams;
+    font-weight: bold;
 }
 /*------------------------------------------------------------------*/
