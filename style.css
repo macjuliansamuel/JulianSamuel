@@ -11,7 +11,7 @@ p{
 
 #nav-bar{
     background-color:#fff234;
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     z-index: 10;
 }
@@ -224,15 +224,15 @@ p{
 .header img{
     width: 100%;
     height: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 }
-.header h1,h2,h4{
+.header h2,h4{
     padding-top: 30px;
     font-family: 'Open Sans', sans-serif;
-    font-weight:  ;
+    
 }
 .header h6{
     font-family: 'Open Sans', sans-serif;
@@ -240,5 +240,16 @@ p{
 }
 .list{
     padding-left: 50px;
+}
+.imgtext{
+    font-size: small;
+    color: gray;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.navnext{
+    text-align: right;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 /*------------------------------------------------------------------*/
