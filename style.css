@@ -291,17 +291,21 @@ button{
     text-align: center;
 }
 
+.nav-item i{
+    color: black;
+
+}
 .comingsoon{
   
-  background-color: #4CAF50;
+  background-color:black;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 2px 1px;
   border-radius: 10px;
 }
 .content{
