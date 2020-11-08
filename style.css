@@ -8,6 +8,10 @@
 p{
     font-family: 'Open Sans', sans-serif;
 }
+#latest{
+    padding-top: 2%;
+    background-color:F2F2F2;
+}
 
 #nav-bar{
     
@@ -34,6 +38,12 @@ hr {
 }
 .navbar-nav li a{
     color: #000000 !important;
+    float: right;
+    text-align: left;
+  
+}
+.light li a{
+    color:white !important;
     float: right;
     text-align: left;
   
@@ -291,10 +301,7 @@ button{
     text-align: center;
 }
 
-.nav-item i{
-    color: black;
 
-}
 .comingsoon{
   
   background-color:black;
@@ -310,4 +317,18 @@ button{
 }
 .content{
     height:33%;
+}
+#half-bg{
+    background: linear-gradient(
+        to bottom, 
+    grey 0%, 
+    grey 90%, 
+    #ffffff 90%, 
+    #ffffff 100%
+    );
+}
+.ban p h3{
+    text-align: justify;
+    color: white;
+
 }
