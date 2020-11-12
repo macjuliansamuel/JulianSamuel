@@ -82,6 +82,7 @@ hr {
 }
 .app-text h3{
     font-size:60px;
+    color: black;
 
 }
 .app-text h1{
@@ -96,6 +97,7 @@ hr {
     font-size: 26px;
     position: relative;
     font-weight: bold;
+    color: black;
 }
 
 .app-subtext h5{
@@ -322,14 +324,27 @@ button{
 #half-bg{
     background: linear-gradient(
         to bottom, 
-    grey 0%, 
-    grey 90%, 
+        #6560AA 0%, 
+        #6560AA 90%, 
     #ffffff 90%, 
     #ffffff 100%
     );
 }
-.ban p h3{
+
+.ban p,h3{
     text-align: justify;
     color: white;
+
+}
+.ban h6{
+    text-align: justify;
+    color: white;
+
+}
+.ban h2{
+    
+    color: white;
+    font-weight: 300;
+    font-size: 45;
 
 }
