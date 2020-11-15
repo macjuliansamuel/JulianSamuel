@@ -204,6 +204,14 @@ color: white;
     text-decoration: none; 
     
 }
+.cs a{
+    color: black;
+}
+.cs a:hover{
+    color: black;
+    text-decoration: none; 
+    
+}
 .pic img{
     border-radius: 10px 10px 0px 0px;
     width: 300px;
@@ -214,12 +222,23 @@ color: white;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .title-text{
     
     text-align: center;
     padding-top:10%
-    
-        
+           
 }
 
 /*----------------------------ABOUT PAGE CSS-------------------------- */
@@ -330,6 +349,15 @@ button{
     #ffffff 100%
     );
 }
+#half-bg2{
+    background: linear-gradient(
+        to bottom, 
+        #FFC600 0%, 
+        #FFC600 90%, 
+    #ffffff 90%, 
+    #ffffff 100%
+    );
+}
 
 .ban p,h3{
     text-align: justify;
@@ -346,5 +374,17 @@ button{
     color: white;
     font-weight: 300;
     font-size: 45;
+
+}
+
+.app-text i{
+    color: black;
+}
+.app-text i:hover{
+    color:#D65A31;
+}
+
+.footer i:hover{
+    color: #D65A31;
 
 }
