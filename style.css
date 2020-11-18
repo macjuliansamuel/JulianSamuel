@@ -275,6 +275,10 @@ color: white;
     padding-left: 25%;
     padding-right: 25%;
 }
+#contents{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 p{
     text-align: justify;
 }
@@ -387,4 +391,10 @@ button{
 .footer i:hover{
     color: #D65A31;
 
+}
+.overview{
+    background-color: aqua;
+    padding:  5% 10% 5% 10%;
+    
+    
 }
