@@ -119,6 +119,12 @@ hr {
     color: #D65A31;
     font-weight: bold;
 }
+.app-subtext a:hover{
+    font-size: 20px;
+    color: #D65A31;
+    font-weight: bold;
+    
+}
 .float-arrow{
     text-align: center;
 }
@@ -222,7 +228,12 @@ color: white;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
+.lg a{
+    color:black!important;
+}
+.lg a:hover{
+    color: black;
+}
 
 
 
@@ -239,6 +250,12 @@ color: white;
     text-align: center;
     padding-top:10%
            
+}
+.title-text h5{
+    font-size: 22px;
+    color: #D65A31;
+    
+    position: relative;
 }
 
 /*----------------------------ABOUT PAGE CSS-------------------------- */
@@ -395,6 +412,4 @@ button{
 .overview{
     background-color: aqua;
     padding:  5% 10% 5% 10%;
-    
-    
-}
+    }
