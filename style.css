@@ -300,6 +300,12 @@ color: white;
 p{
     text-align: justify;
 }
+.header .row{
+    padding: 0 0 3% 0;
+}
+.header{
+    padding-top:5%;
+}
 .header img{
     width: 100%;
     height: auto;
