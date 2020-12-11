@@ -5,6 +5,10 @@
     padding: 0%;
     
 }
+#navtext{
+    color: white;
+}
+
 #frame {
     width: 800px;
     margin: auto;
@@ -177,6 +181,7 @@ color: white;
 .pd-l{
     text-align:center;
     padding-bottom:50px;
+    padding-top: 50px;
 }
 
 .projects img{
@@ -191,9 +196,9 @@ color: white;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-.col-lg-4{
+/* .col-lg-4{
     padding-bottom: 10%;
-}
+} */
 .imgbox{
     
     width: 300px;
@@ -301,19 +306,30 @@ color: white;
     padding-left: 25%;
     padding-right: 25%;
 }
-#contents{
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 p{
     text-align: justify;
 }
-.header .row{
-    padding: 0 0 3% 0;
+.pad.row{
+padding-left:10%;
+padding-right: 10%;
 }
-.header{
-    padding-top:5%;
+.pad.row.bgc{
+    background-color: #EEEEEE;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
+.pad.row h3{
+    color: black;
+    font-weight: 400;
+}
+
+
 .header img{
     width: 100%;
     height: auto;
@@ -323,7 +339,7 @@ p{
 
 
 .header h2,h4{
-    padding-top: 30px;
+    /* padding-top: 30px; */
     font-family: 'Open Sans', sans-serif;
     
 }
@@ -390,6 +406,15 @@ button{
         to bottom, 
         #FFC600 0%, 
         #FFC600 90%, 
+    #ffffff 90%, 
+    #ffffff 100%
+    );
+}
+#half-bg3{
+    background: linear-gradient(
+        to bottom, 
+        #222222 0%, 
+        #222222 90%, 
     #ffffff 90%, 
     #ffffff 100%
     );
