@@ -275,7 +275,7 @@ color: white;
 /*----------------------------ABOUT PAGE CSS-------------------------- */
 .about-me-text{
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     position: relative;
     margin-bottom: 100px;
 }
@@ -308,7 +308,7 @@ color: white;
 }
 
 p{
-    text-align: justify;
+    text-align: left;
 }
 .pad.row{
 padding-left:10%;
@@ -420,14 +420,32 @@ button{
     #ffffff 100%
     );
 }
+#half-bg4{
+    background: linear-gradient(
+        to bottom, 
+        #4ECDC4 0%, 
+        #4ECDC4 90%, 
+    #ffffff 90%, 
+    #ffffff 100%
+    );
+}
+#half-bg5{
+    background: linear-gradient(
+        to bottom, 
+        #FF7B00 0%, 
+        #FF7B00 90%, 
+    #ffffff 90%, 
+    #ffffff 100%
+    );
+}
 
 .ban p,h3{
-    text-align: justify;
+    text-align: left;
     color: white;
 
 }
 .ban h6{
-    text-align: justify;
+    text-align: left;
     color: white;
 
 }
