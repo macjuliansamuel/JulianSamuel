@@ -168,7 +168,7 @@ color: white;
 
 #work{
     
-    padding-top: 5%;
+    
     padding-bottom: 5%;
 }
 .cover-pic{
@@ -182,6 +182,7 @@ color: white;
     text-align:center;
     padding-bottom:50px;
     padding-top: 50px;
+    
 }
 
 .projects img{
@@ -359,8 +360,7 @@ padding-right: 10%;
 }
 .navnext{
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10%;
+    padding-right: 10%;
 }
 .col-md-2 h6{
     text-align: bottom;
