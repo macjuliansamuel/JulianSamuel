@@ -47,12 +47,11 @@
   
           <section id="top">
             <div class="ban" style="padding: 2% 10% 0% 10%;">
-              <div class=" row"><h2>Augmented Reality in E-Commerce</h2></div>
+              <div class=" row"><h2>E-Commerce using Augmented Reality </h2></div>
               <div class=" row"   style="padding-top:2%;">
                 <div class="col-md-7">
                   
-                  <p style="text-align: justify;color: white;">Talent Mentoring is a Pune based mentoring organization whose mission is to mentor global professionals, entrepreneurs, and students to develop their talent and achieve their dream. </p>
-                </p>
+                  <p style="text-align: justify;color: white;">For our final year project we built an augmented reality mobile application that superimposed furniture on the detected plane. </p>
                 <div class="myrole">  
                 <div class=" row">
                     <div class="col ">
@@ -99,7 +98,7 @@
                   <h2>Background</h2>
                 </div>
                 <div class="col-lg-8">
-                  <p>Online shopping has become a popular shopping method ever since the internet declared a takeover. Furniture and other household items are some of the common things bought online. Although purchasing these products online is highly convenient, it comes with its own disadvantages. The major disadvantage of purchasing products online is that the customer solely relies on the picture offered on the website to determine if the product will fit in their home or in the required environment. However, in many cases, pictures are unable to convey the necessary information needed to determine if the furniture will fit in the required environment. For example, the size of the furniture will not fit in the available space, the color of the furniture might not go along with the background color.   This ordeal can be overcome using augmented reality. 
+                  <p><mark>Online shopping has become a popular shopping method ever since the internet declared a takeover.</mark> Furniture and other household items are some of the common things bought online. Although purchasing these products online is highly convenient, it comes with its own disadvantages. <mark>The major disadvantage of purchasing products online is that the customer solely relies on the picture offered on the website</mark> to determine if the product will fit in their home or in the required environment. However, in many cases, pictures are unable to convey the necessary information needed to determine if the furniture will fit in the required environment. For example, the size of the furniture will not fit in the available space, the color of the furniture might not go along with the background color.   This ordeal can be overcome using augmented reality. 
                 </p>
                 </div></div>
 
@@ -111,10 +110,12 @@
             </div>
             <div class="col-lg-8">
               <h4>The Problem</h4>
-              <p>The applications that are currently being used are based on marker detecting systems. It uses a marker-based detection to detect the plane and superimpose the furniture. The marker is usually a QR code, Bar Code or Image. Once the marker is seen and detected through the camera, the furniture is superimposed above the marker. This lets the customer see what it looks like in the real world. 
+              <p><mark>The applications that are currently being used are based on marker detecting systems.</mark> It uses a marker-based detection to detect the plane and superimpose the furniture. The marker is usually a QR code, Bar Code or Image. Once the marker is seen and detected through the camera, the furniture is superimposed above the marker. This lets the customer see what it looks like in the real world. 
                     <br><br>
-                It requires a physical marker such as a QR code, Bar code or an image to detect the plane. Only when the marker is detected the furniture can be superimposed in the real world. And the furniture can be placed only above the marker, it lacks the flexibility to be moved around and rotated.  Furthermore, the application can superimpose only one furniture at a time. So it becomes a great ordeal when two furniture needs to be bought together. Also, the current system cannot detect depth enough to give a full-on immersive experience. 
+                It requires a physical marker such as a QR code, Bar code or an image to detect the plane. Only when the marker is detected the furniture can be superimposed in the real world. And the furniture can be placed only above the marker, it lacks the flexibility to be moved around and rotated.  Furthermore, the application can superimpose only one furniture at a time. So it becomes a great ordeal when two furniture need to be bought together. Also, the current system cannot detect depth enough to give a full-on immersive experience. 
                 </p>
+                <img src="Assets/ar_penguin.png" style="max-width: 50%; max-height: 100%; ">
+                <p class="imgtext">Marker Detection - Penguin superimposed over a QR code</p>
                
           </div>
         </div>
@@ -124,10 +125,75 @@
               <h2>Solution</h2>
             </div>
             <div class="col-lg-8">
-              <p>Online shopping has become a popular shopping method ever since the internet declared a takeover. Furniture and other household items are some of the common things bought online. Although purchasing these products online is highly convenient, it comes with its own disadvantages. The major disadvantage of purchasing products online is that the customer solely relies on the picture offered on the website to determine if the product will fit in their home or in the required environment. However, in many cases, pictures are unable to convey the necessary information needed to determine if the furniture will fit in the required environment. For example, the size of the furniture will not fit in the available space, the color of the furniture might not go along with the background color.   This ordeal can be overcome using augmented reality. 
-            </p>
+              <p><mark>We developed a mobile application that uses ARCore and Sceneform to superimpose the furniture in the real world without any marker. The markerless detection of the plane is done using the sceneform API. Once the plane is detected, a grid of white dots is laid on the surface. The 3D object is placed on the touched location.</mark> This is done with the help of anchors. Anchors are the location in the physical world where the object needs to be placed. While the 3D object is being superimposed, the light estimation API and the Depth API makes the object more realistic to give the customer an immersive experience. 
+
+                ARCore was developed by Google as a software development kit. This enables the use of augmented reality applications in smartphones. It uses three technologies to fuse the virtual content with the real world as seen through the phone’s camera. The three technologies are environmental understanding, six degrees of freedom and light estimation. 
+                
+                Sceneform is an application programming interface that renders a 3D scene without the use of OpenGL. It consists of a high-level scene based graph API, a realistic physically based renderer and an Android Studio plugin for viewing and importing 3D assets.
+                <br><br>
+                Depth-from motion algorithm that creates a depth map of the environment using the depth sensor. A Depth map enables the application to identify which objects are close to the camera sensor and thus determining whether a virtual object to be superimposed should appear overlapped by some real-world object or not.
+                
+                The input feed is given in an image format for the Lighting Estimation API. This provides discrete visual cues and provides detailed information about the Lighting in the given scene. This information can be used when rendering virtual objects to light them similar to how they appear in the real world. These details can be mimicked to give an enhanced immersive experience for the customers. 
+                
+                The selection allows the user to select the furniture that needs to be superimposed. Once the furniture is selected, it needs to be placed in the real world. This is done by tapping on the detected plane. The detected plane is represented by a grid of white dots. Now the object is placed in the real word through AR.<mark>The superimposed furniture can be rotated and moved around to figure out the right place for the furniture. Multiple furnitures can also be superimposed at the same time,</mark>  which makes it convenient for the customer to buy multiple furniture together. When the desired furniture and it’s location to be placed is obtained, it can be screenshotted and shared. 
+                </p>
             </div></div>
+            <section id="overview">
+              
+              <div class="pad row ">
+              <div class="col-lg-4">
+                <h2>Screenshots</h2>
+              </div>
+              <div class="row">
+              <div class="col-3" style="text-align: center;">
+                <img src="Assets/Coin/Group-2.png" style="max-width: 70%; max-height: 100%; ">
+                <p class="imgtext">Hover to detect the plane</p>
+              </div>
+              <div class="col-3" style="text-align: center;" >
+                <img src="Assets/Coin/Group-1.png" style="max-width: 70%; max-height: 100%; ">
+                <p class="imgtext">Detected plane is represented using a grid</p>
+              </div>
+              <div class="col-3" style="text-align: center;">
+                <img src="Assets/Coin/Group.png" style="max-width: 70%; max-height: 100%; ">
+                <p class="imgtext">A chair is superimposed</p>
+              </div>
+              
+              <div class="col-3" style="text-align: center;">
+                <img src="Assets/Coin/Group-3.png" style="max-width: 70%; max-height: 100%; ">
+                <p class="imgtext">Multiple chairs are superimposed</p>
+              </div>
+            </div>
+            </div>
+            
+          </section>
+            
+            </section>
+            <div class="footer">
+          
+              <div class="row" style="padding:5% 30% 5% 30%; background-color:black;">
+                <div class="col-md-2" style="text-align: center;">
+                    <a href="mailto:macjuliansamuel1998@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                  </div>
+                <div class="col-md-2" style="text-align: center;">
+                  <a href="https://dribbble.com/macjuliansamuel" target="_blank">
+                    <i class="fa fa-dribbble"></i></a></div>
+                <div class="col-md-2" style="text-align: center;">
+                  <a href="https://www.behance.net/macjuliansamuel" target="_blank">
+                  <i class="fa fa-behance"></i></a></div>
+                
+                <div class="col-md-2" style="text-align: center;" >
+                  <a href="https://twitter.com/macjuliansamuel" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+              
+              <div class="col-md-2" style="text-align: center;">
+                <a href="https://github.com/macjuliansamuel" target="_blank">
+                  <i class="fa fa-github-alt"></i></a></div>
+      
+              </div>
+            
+            </div>
           
            
           
-          </section>
+       
+        </html>
